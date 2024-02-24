@@ -1,0 +1,40 @@
+###
+GET http://localhost:3000/user
+Content-Type:  application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6IkRhbmllbCIsImVtYWlsIjoidGVzdGVAdGVzdGUyLmNvbSIsImlhdCI6MTcwODcxMzExMiwiZXhwIjoxNzA5MzE3OTEyLCJhdWQiOiJ1c2VycyIsImlzcyI6ImxvZ2luIiwic3ViIjoiMyJ9.a9LGF_B8b_Y8bWrazkLozmY_NdSd669dtLNcd32e1O4
+
+###
+POST http://localhost:3000/user/upload
+Content-Type:  application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6IkRhbmllbCIsImVtYWlsIjoidGVzdGVAdGVzdGUyLmNvbSIsImlhdCI6MTcwODcxMzExMiwiZXhwIjoxNzA5MzE3OTEyLCJhdWQiOiJ1c2VycyIsImlzcyI6ImxvZ2luIiwic3ViIjoiMyJ9.a9LGF_B8b_Y8bWrazkLozmY_NdSd669dtLNcd32e1O4
+
+
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6IkRhbmllbCIsImVtYWlsIjoidGVzdGVAdGVzdGUyLmNvbSIsImlhdCI6MTcwODcxMzExMiwiZXhwIjoxNzA5MzE3OTEyLCJhdWQiOiJ1c2VycyIsImlzcyI6ImxvZ2luIiwic3ViIjoiMyJ9.a9LGF_B8b_Y8bWrazkLozmY_NdSd669dtLNcd32e1O4
+
+{
+  "name": "Teste",
+  "email": "teste@teste3.com",
+  "password": "123456",
+  "role": 2
+}
+
+###
+DELETE http://localhost:3000/user/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6IkRhbmllbCIsImVtYWlsIjoidGVzdGVAdGVzdGUyLmNvbSIsImlhdCI6MTcwODcxMjYzMywiZXhwIjoxNzA5MzE3NDMzLCJhdWQiOiJ1c2VycyIsImlzcyI6ImxvZ2luIiwic3ViIjoiMiJ9.3zWcldSAlO0ktfQE4wWdxeVczGr4nDKd1fwxfM03MsQ
+
+
+
+
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "teste@teste2.com",
+  "password": "123456"
+}
